@@ -1,0 +1,55 @@
+* {
+  box-sizing: border-box;
+}
+
+.cal-background {
+  background-color: aqua;
+  padding: 50px;
+}
+.cal-background .cal-container {
+  width: 280px;
+  height: 490px;
+  padding: 20px;
+  border-radius: 20px;
+  margin: 0 auto;
+  background-color: #0000cc;
+  box-shadow: 1px 1px 50px #000 inset;
+}
+.cal-background .cal-container .title {
+  color: white;
+  font-weight: bold;
+}
+.cal-background .cal-container .screen {
+  width: 100% 11px;
+  height: 40px;
+  background: linear-gradient(to right, #8e9eab, #eef2f3);
+  border-radius: 8px;
+  box-shadow: 0 -3px #000099;
+  margin: 10px 0;
+}
+.cal-background .cal-container .row-layout .row {
+  display: flex;
+  justify-content: space-between;
+}
+.cal-background .cal-container .row-layout .row .btn {
+  width: 50px;
+  height: 50px;
+  border: none;
+  margin: 10px 0;
+  box-shadow: inset 1px 1px 50px #0066ff;
+}
+.cal-background .cal-container .row-layout .row .btn.btn-AC {
+  box-shadow: inset 1px 1px 50px #990000;
+}
+.cal-background .cal-container .row-layout .row .btn.btn-CE {
+  box-shadow: inset 1px 1px 50px #cc6600;
+}
+.cal-background .cal-container .row-layout .row .btn.btn-elquas {
+  box-shadow: inset 1px 1px 50px #006633;
+}
+.cal-background .cal-container .row-layout .row .btn.btn-empty {
+  visibility: hidden;
+}
+.cal-background .cal-container .row-layout .row .btn:hover {
+  cursor: pointer;
+}
